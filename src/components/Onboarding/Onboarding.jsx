@@ -1,5 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
-import './Onboarding.css';
+import './Onboarding.css'
 
 function Onboarding() {
   return (
@@ -15,14 +15,11 @@ function Onboarding() {
       </h1>
       <p>
         Nuestra politica de privacidad es simple: No colectamos
-        <br />
-        o compartimos ninguna informacion personal tuya.
+        <br />o compartimos ninguna informacion personal tuya.
       </p>
-      <button type="button">
-        Instalar DuckDuckGo
-      </button>
+      <button type="button">Instalar DuckDuckGo</button>
     </div>
-  );
+  )
 }
 
-export default Onboarding;
+export default Onboarding

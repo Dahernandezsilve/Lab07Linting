@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 // eslint-disable-next-line import/extensions
-import InformationBlock from './infoBlocks.jsx';
+import InformationBlock from './infoBlocks.jsx'
 
 function MainInfoBlocks() {
   return (
@@ -29,7 +29,7 @@ function MainInfoBlocks() {
         text2="iOS & Android"
       />
     </div>
-  );
+  )
 }
 
-export default MainInfoBlocks;
+export default MainInfoBlocks

@@ -1,14 +1,16 @@
-import React, { useState } from 'react';
-import './DropDownMenu.css';
+import React, { useState } from 'react'
+import './DropDownMenu.css'
 
 function DropDownMenu() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
   const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
+    setIsDropdownOpen(!isDropdownOpen)
+  }
 
-  const dropdownClasses = isDropdownOpen ? 'dropdown-container dropdown-open' : 'dropdown-container';
+  const dropdownClasses = isDropdownOpen
+    ? 'dropdown-container dropdown-open'
+    : 'dropdown-container'
 
   return (
     <div className="dropdown-menu">
@@ -40,6 +42,6 @@ function DropDownMenu() {
         </ul>
       </div>
     </div>
-  );
+  )
 }
-export default DropDownMenu;
+export default DropDownMenu
