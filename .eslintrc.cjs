@@ -18,6 +18,7 @@ module.exports = {
     'react',
   ],
   rules: {
-    semi: ["error", "never"]
+    semi: ["error", "never"],
+    "max-len": ["warn", { "code": 120 }]
   },
 }
