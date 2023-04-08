@@ -1,6 +1,7 @@
-import InformationBlock from './infoBlocks.jsx'
+// eslint-disable-next-line import/extensions
+import InformationBlock from './infoBlocks.jsx';
 
-const MainInfoBlocks=()=>{
+function MainInfoBlocks() {
     return(
         <div>
             <InformationBlock img = {"https://duckduckgo.com/assets/add-to-browser/cppm/laptop.svg"} title = {"Privacidad para Chrome"}
@@ -18,8 +19,7 @@ const MainInfoBlocks=()=>{
             link= {"https://duckduckgo.com/app"}
             text2={"iOS & Android"}/>
         </div>
-    )
+    );
 }
 
-export default MainInfoBlocks
-
+export default MainInfoBlocks;
